@@ -51,9 +51,9 @@
 
 
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class test {
+// public class test {
     // public double add(double a,double b){
     //     return a+b;
     // }
@@ -67,42 +67,48 @@ public class test {
     //     return a/b;
     // }
 
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
+    // public static void main(String[] args){
+    //     Scanner scanner = new Scanner(System.in);
         
-        System.out.println("this is an Calculato program");
+    //     System.out.println("this is an Calculato program");
         
-        System.out.print("enter the 1st no here ");
-        double num1 = scanner.nextDouble();
+    //     System.out.print("enter the 1st no here ");
+    //     double num1 = scanner.nextDouble();
 
-        System.out.print("enter the 2nd no here ");
-        double num2 = scanner.nextDouble();
+    //     System.out.print("enter the 2nd no here ");
+    //     double num2 = scanner.nextDouble();
 
-        System.out.print("enter the operator +,-,*,/");
-        char operator = scanner.next().charAt(0);
+    //     System.out.print("enter the operator +,-,*,/");
+    //     char operator = scanner.next().charAt(0);
 
-        double result;
+    //     double result;
 
-        switch(operator){
-            case '+':
-                result = num1 + num2 ;
-                break;
-            case '-':
-                result= num1-num2;
-                break;
-            case '*':
-                result = num1*num2;
-                break;
-            case '/':
-                result= num1/num2;
-                break;
+    //     switch(operator){
+    //         case '+':
+    //             result = num1 + num2 ;
+    //             break;
+    //         case '-':
+    //             result= num1-num2;
+    //             break;
+    //         case '*':
+    //             result = num1*num2;
+    //             break;
+    //         case '/':
+    //             result= num1/num2;
+    //             break;
             
-            default:
-                System.out.println("invalid operator!");
-                scanner.close();
-                return;
-        }
-        System.out.println("The result is as follow : " + result);
-        scanner.close();
+    //         default:
+    //             System.out.println("Wrong input");
+    //             return;
+    //     }
+    //     System.out.println("The result is as follow : " + result);
+    //     scanner.close();
+//     }
+// }
+
+
+public class test {
+    public static void main(String[] args) {
+        System.out.println("hello, World!");
     }
 }
