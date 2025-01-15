@@ -2,7 +2,7 @@
 // public class test {
 //     // Class body
 
-//     // Main method
+//     // Main method..............
 //     public static void main(String[] args) {
 //         System.out.println("Hello, World!");
 //     }
@@ -107,8 +107,70 @@
 // }
 
 
+// public class test {
+//     public static void main(String[] args) {
+//         System.out.println("hello, World!");
+//     }
+// }
+
+// public class test  {
+//     public static void main(String[] args){
+//         int a = 10 ;
+//         int b = 20;
+//         if ( a > b){
+//             System.out.println("a is greater then b");
+//         } else if (b > a){
+//             System.out.println("b is greater then a");
+//         }
+//     }
+// }
+
+// Take input and find the factorial of entered no.
+// import java.util.Scanner;
+// public class test {
+//     public static void main(String[] args){
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.println("Enter the no. here : ");
+//         int num1 = scanner.nextInt();
+//         System.out.println("you enter the : "+ num1);
+
+//         long fact =  1;
+//         for(int i = 1; i <= num1 ;i++){
+//             fact*=i;
+//         }
+//         System.out.println("the Factorial of "+ num1 + " is : "+ fact);
+//         scanner.close();
+//     }
+
+// }
+
+
+class animal {
+    public void eat() {
+        System.out.println("this animal eat");
+    }
+}
+class Dog extends animal {
+    public void bark() {
+        System.out.println("The Dog barks ");
+    }
+}
+class Cat extends animal {
+    public void meow() {
+        System.out.println("this cats meow");
+    }
+}
+
 public class test {
-    public static void main(String[] args) {
-        System.out.println("hello, World!");
+    public static void main(String[] args){
+        Dog dog = new Dog();
+        Cat cat = new Cat();
+
+        dog.eat();
+        dog.bark();
+
+        cat.eat();
+        cat.meow();
     }
 }
